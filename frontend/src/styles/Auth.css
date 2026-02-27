@@ -1,0 +1,39 @@
+.auth-card {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 30px;
+  background: rgba(255,255,255,0.2);
+  backdrop-filter: blur(15px);
+  border-radius: 25px;
+  box-shadow: 0 8px 30px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.auth-card h2 {
+  margin-bottom: 10px;
+}
+.password-wrapper {
+  position: relative;
+}
+.password-wrapper span {
+  position: absolute;
+  right: 10px;
+  top: 12px;
+  cursor: pointer;
+}
+.role-select {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+.role-select button.active {
+  background: #10b981;
+  color: white;
+}
+.back-btn {
+  background: none;
+  border: none;
+  font-weight: 700;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
